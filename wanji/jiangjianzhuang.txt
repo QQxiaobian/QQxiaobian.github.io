@@ -1,0 +1,17 @@
+免清除数据降级安装软件教程
+1 原理
+使用adb命令uninstall -k卸载软件，可保留数据。例如：
+adb pm uninstall -k --user 0 com.tencent.mm
+（其中com.tencent.mm为微信包名，其他软件自己更换包名）
+  
+2 如何执行指令
+2.1 电脑cmd执行命令
+2.2 手机“黑阈”执行指令
+  
+3 如何使用黑阈降级安装
+3.1 下载，安装，激活黑域
+3.2 使用指令卸载软件。例如：
+pm uninstall -k --user 0 com.tencent.mm
+（其中com.tencent.mm为微信包名，其他软件自己更换包名）
+3.3 重启手机
+3.4 安装旧版本软件
